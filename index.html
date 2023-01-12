@@ -37,10 +37,10 @@
       let enterVRButton = document.getElementById('entervr');
       
       document.addEventListener('onARSupportedCheck', function (event) {
-        enterARButton.disabled = !event.detail.supported;
+        enterARButton.disabled = false;
       }, false);
       document.addEventListener('onVRSupportedCheck', function (event) {
-        enterVRButton.disabled = !event.detail.supported;
+        enterVRButton.disabled = false;
       }, false);
       
       enterARButton.addEventListener('click', function (event) {
