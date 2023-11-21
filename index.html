@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Electric</title>
+    <title>Electric_panel</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.javascript"></script>
@@ -11,11 +11,17 @@
     <script>
         var gameInstance = UnityLoader.instantiate("gameContainer", "Build/AR-unity.json", {onProgress: UnityProgress});
     </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
-<body>
+<body style ="display: none;">
 <div class="webgl-content">
-    <div id="gameContainer" style="width: 412px; height: 915px"></div>
+    <div id="gameContainer" style="width: 1680px; height: 2360px"></div>
 </div>
 <script src="TemplateData/responsive.javascript"></script>
+
+<script>
+    $("#unityContainer").find("button").click();
+    $("body").fadeIn();
+</script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 {
 "companyName": "CIAID",
-"productName": "Electric",
-"productVersion": "0.1",
+"productName": "Electric_panel",
+"productVersion": "0.3",
 "dataUrl": "AR-unity.data.unityweb",
 "wasmCodeUrl": "AR-unity.wasm.code.unityweb",
 "wasmFrameworkUrl": "AR-unity.wasm.framework.unityweb",
